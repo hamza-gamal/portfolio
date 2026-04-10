@@ -3,7 +3,7 @@
 
 .body {
     color: rgb(255, 255, 255);
-    /* background-image: url(../assets/images/ورده.webp), url(../assets/images/web_page.jpg); */
+    /* background-image: url(images/ورده.webp), url(images/web_page.jpg); */
     background-color: #111111;
     background-position: center 130%, center center;
     background-attachment: fixed;
@@ -100,7 +100,7 @@ html {
     position: fixed;
     padding-bottom: 10px;
     background-size: contain;
-    /* background-image: url(../assets/images/hg-logo-1.png); */
+    /* background-image: url(images/hg-logo-1.png); */
     background-repeat: no-repeat;
     background-position: center;
     background-position: 1100;
