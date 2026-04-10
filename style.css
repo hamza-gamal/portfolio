@@ -1,0 +1,742 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+
+
+.body {
+    color: rgb(255, 255, 255);
+    /* background-image: url(../assets/images/ورده.webp), url(../assets/images/web_page.jpg); */
+    background-color: #111111;
+    background-position: center 130%, center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 415px, auto;
+    background-size: auto, 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+
+}
+html {
+    scroll-behavior: smooth;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+/* .navbar {
+
+} */
+ .nav-links a:hover {
+ color: #ffffff;
+ transition: 0.4s;
+ text-decoration: underline;
+} 
+ .nav-links a{
+    color: rgb(170, 170, 170);
+} 
+
+/* .nav-logo {
+ margin-right: 1100px;  
+     height:60px; 
+     width: auto; 
+} */
+.logo a{
+    color: rgb(170, 170, 170);
+}
+
+.logo {
+    font-size: 24px;
+    font-family: "Exo 2", sans-serif;
+    margin-right: 10px;
+    float: right;
+}
+.logo a:hover
+{
+    color: #ffffff;
+    transition: 0.4s;
+
+}
+.logo img:hover
+{
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: 0.4s;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+    padding-right: 5vh;
+    color: rgb(170, 170, 170);
+}
+
+.nav-links a {
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.all {
+    /* background-color:  rgba(255, 255, 255, 0.9); */
+    background-color: rgba(0, 0, 0, 0.98);
+    border-bottom: 1px #464646 solid;
+    margin-bottom: 10px;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    position: fixed;
+    padding-bottom: 10px;
+    background-size: contain;
+    /* background-image: url(../assets/images/hg-logo-1.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 1100;
+    z-index: 9999;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+.Programming:hover
+{
+    background-color: #af2a2a;
+    transition: 0.4s;
+}
+.Football:hover
+{
+    background-color: #af2a2a;
+    transition: 0.4s;
+}
+.gym:hover
+{
+    background-color: #af2a2a;
+    transition: 0.4s;
+}
+.صوره-اللوجو {
+    margin-top: -19px;
+}
+
+.stop2 {
+    display: none;
+    /* ده هيشيل أي مسافة بياخدها الديف ده */
+}
+
+
+.members,
+.two {
+    position: relative;
+    /* عشان الـ z-index يشتغل */
+    z-index: 5;
+    /* يخليها فوق الخلفية */
+}
+
+.lonlink a {
+    position: relative;
+    z-index: 10;
+    /* يضمن إن اللينك نفسه هو اللي في الوش */
+    cursor: pointer;
+    /* عشان شكل الإيد يظهر */
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Exo 2';
+}
+
+.logo span {
+    color: #ff4d4d;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+/* الـ Hero */
+.hero {
+    height: auto;
+    padding-top: 30px;
+    background-color: #111111;
+    color: #fff;
+    text-align: center;
+}
+
+.img-logo {
+    width: 100px;
+    float: right;
+    margin-bottom: 6px;
+    padding-bottom: 10px;
+}
+
+.hero-content {
+    display: block;
+    /* ده النوع العادي اللي إنت عارفه */
+}
+
+.hero h1 {
+    font-size: 80px;
+    font-family: 'Exo 2';
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 24px;
+    font-family: 'Dancing Script';
+    color: #ff4d4d;
+    margin-bottom: 22px;
+}
+
+.main-btn {
+    background: #ff4d4d;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.sec-btn {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 23px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+.main-btn:hover
+{
+    background-color: #111111;
+    transition: 0.3s;
+    border: #fff solid 2px;
+}
+.sec-btn:hover
+{
+    background-color: #ff4d4d;
+    border: none;
+    transition: 0.3s;
+}
+
+.loahdihm {
+    display: inline-block;
+    margin-top: 515px;
+}
+
+.hero img {
+    margin-left: 544px;
+}
+
+.ai-haga {
+    margin-top: 9vh;
+}
+
+.hero img {
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+
+.Hamza_Gamal
+{
+text-shadow: 1px 1px 30px rgba(155, 26, 26, 0.9); 
+}
+
+
+
+
+.bdaya-safha {
+    background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1352&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+input {
+    background-color: #000;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    width: 268px;
+    color: #ffffff;
+}
+
+textarea {
+    background-color: #000;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.logoo {
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    margin-top: 94px;
+}
+
+.logooo {
+    text-align: center;
+    margin: auto;
+
+}
+
+.images-div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.images-margin {
+    margin: auto;
+    width: 70;
+    text-align: center;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    border: #141414 solid;
+    margin-top: 96px;
+
+}
+
+
+.stop2 {
+    clear: both;
+}
+
+/* ---------------- */
+.image:hover
+{
+ transform: rotate(360deg);
+}
+.image
+{
+transition: 0.8s;
+}
+.title-parent {
+    font-style: italic;
+    font-weight: 500;
+    background-color: rgb(20, 20, 20);
+    border: solid #555454;
+    font-size: 35px;
+    float: left;
+    height: 64px;
+    width: 100%;
+}
+
+
+.stop {
+    clear: both;
+}
+
+.title-child {
+    display: inline-block;
+    float: left;
+}
+
+.title-color {
+    width: 26%;
+    height: 63px;
+    text-align: center;
+    display: inline-block;
+}
+
+.stop {
+    clear: both;
+}
+
+.letter {
+    font-size: 52px;
+    color: rgb(145, 145, 145);
+
+
+
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Coat_of_arms_of_Egypt_%28Official%29.svg/250px-Coat_of_arms_of_Egypt_%28Official%29.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.black {
+    background-color: rgb(0, 0, 0);
+}
+
+/* ---------------- */
+
+.memper {
+    /* background-color: rgb(51, 51, 51); */
+    width: 33.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333%;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    padding-bottom: 0px;
+    text-decoration: none;
+    margin-bottom: 52px;
+}
+.members
+{
+    background-color: #000000;
+}
+.جمب-بعض
+{
+    display: inline-block;
+}
+
+.tadelmemper4 {
+    /* padding-bottom: 0px; */
+}
+
+.stop {
+    clear: both;
+}
+.form
+{
+    overflow:  hidden;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+.a {
+    color: rgb(80, 79, 79);
+
+}
+
+
+.bizo {
+    background-color: rgb(0, 77, 10);
+}
+
+
+.link {
+    color: rgb(199, 61, 61);
+}
+
+
+.for
+{
+    
+}
+
+.lonlink {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+.skills-section {
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.skills-title {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #fff;
+
+}
+
+.skills-container {
+
+
+    padding-left: 122px;
+    margin: auto;
+}
+
+.skill-card {
+    background: #360000;
+    padding: 30px;
+    border: 2px solid #8d8b8b;
+    border-radius: 15px;
+    width: 250px;
+    margin: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.skill-card h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    color: #ccc;
+}
+
+
+.skill-card:hover
+{
+background-color: tomato;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+.one {
+    background-color: #222222;
+}
+
+.two {
+    background-color: #555454;
+
+}
+
+.three {
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+.for {
+    color: #ffffff;
+
+}
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////// */
+form {
+    background: #1a1a1a;
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 20px;
+    color: #ffffff;
+    margin-bottom: 323px;
+    margin-right: 20px;
+    padding: 40px;
+    position: absolute;
+    left: 0%;
+    margin-top: 15vh;
+}
+.zarair-transparent {
+      background-color: transparent;
+
+}
+.button {
+    padding: 20px;
+    margin: 5vh;
+    margin-left: 0;
+    background-size: cover;
+    background-position: center center;
+    border: #333 solid 1px;
+    color: #f8f8f8;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.زراير {
+    display: inline-block;
+    background: #7994ec;
+    padding-left: 172px;
+    padding-right: 172px;
+}
+
+.al-contactme
+{
+background-color: #000000;
+border: #919191 solid 1px;
+color: #ffffff;
+padding: 11px;
+padding-right: 111px;
+border-radius: 6px;
+margin-bottom: 33px;
+}
+
+.عنوان-الكونتاكت {
+
+    text-align: center;
+}
+
+.تنسيق {
+    background-color: #000000;
+}
+
+.جمب-بعض {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.al-name-beta3-al-contantme
+{
+
+}
+.al-contact-me1
+{
+display: none;
+background-color: #8b4141;
+border: #919191 solid 0.px;
+color: #707070;
+padding: 5px;
+border-radius: 6px;
+
+margin-bottom: 33px;
+margin-right: 43px;
+width: 100px;
+margin-bottom: 233px;
+margin-top: 122px;
+display: inline-block;
+
+}
+.Contactme
+{
+background-color: #1a1a1a;
+width: 40%;
+border-radius: 20px;
+padding: 40px ;
+display: inline-block;
+position: relative;
+right: 0;
+margin-left: 713px;
+margin-top: 143px;
+}
+input
+{
+    display: inline-block;
+    width: 45%;
+    margin-bottom: 20px;
+}
+textarea {
+    color: #ffffff;
+    width: 640px;
+    height: 20vh;
+    padding: 13px;
+    border-radius: 5px;
+    margin: auto;
+}
+.Contact-and-contactme
+{
+    display: inline-block;
+}
+footer {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    display: block;
+    
+}
+.اللوجو-اللي-في-الفوتر
+{
+    width: 100PX;
+    display: inline-block;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; 
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #111;
+    }
+    
+    .nav-links.active {
+        display: block;
+    }
+        .hamburger {
+        display: block;
+    }
+}
