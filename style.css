@@ -594,6 +594,7 @@ form {
     width: 600px;
     border-radius: 20px;
     color: #ffffff;
+    overflow: hidden;
     text-align: center;
     border: solid 0.1px  rgb(110, 110, 110);
     margin-bottom: 323px;
@@ -610,7 +611,7 @@ form {
 
 .button {
     padding: 20px;
-    margin: 5vh;
+    margin: 33px 0 33px 0;
     margin-left: 0;
     background-size: cover;
     background-position: center center;
@@ -679,8 +680,7 @@ form {
 
 input {
     display: inline-block;
-    margin-left: 7.9px;
-    margin-right: 7.9px;
+    margin: auto;
     width: 260px;
     margin-bottom: 20px;
 }
