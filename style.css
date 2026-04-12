@@ -729,7 +729,23 @@ footer {
 }
 
 
-
+@media (max-width: 1347px) {
+ 
+  .Contact-and-contactme {
+    display: block;
+  }
+  
+  .Contactme {
+    margin: 40px auto;
+  }
+  
+  form {
+    position: static;
+    margin: 40px auto ;
+    height: auto;
+  }
+  
+}
 @media (max-width: 768px) {
     .nav-links {
         display: none;
