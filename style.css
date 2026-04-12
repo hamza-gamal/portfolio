@@ -731,7 +731,10 @@ footer {
 {
     margin-right: 3.5%;
 }
-
+.hamburger
+{
+display: none;
+}
 @media (max-width: 1347px) {
  
   .Contact-and-contactme {
@@ -767,7 +770,10 @@ footer {
         width: 100%;
         background: #111;
     }
-
+.hamburger
+{
+    display: block;
+}
     .nav-links.active {
         display: block;
     }
