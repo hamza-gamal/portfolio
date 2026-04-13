@@ -423,56 +423,56 @@ textarea {
 .black {
     background-color: rgb(0, 0, 0);
 }
+
 /* //////////////////////////////////////////////////////////////////////////////// */
 
 
 
 
-.about
-{
+.about {
     margin-left: 32px;
     width: 90%;
     border-radius: 33px;
-    padding:0 0 50px 50px;
+    padding: 0 0 50px 50px;
     background-color: #0c0c0c;
 }
-.about-dont-img
-{
+
+.about-dont-img {
     display: inline-block;
 }
-.all-img-not-img
-{
+
+.all-img-not-img {
     margin-bottom: 23px;
 }
-.p1-about
-{
-  color: rgb(255, 0, 0);
-  font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
+
+.p1-about {
+    color: rgb(255, 0, 0);
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
 }
-.p2-about
-{
-color: #9e9e9e;
+
+.p2-about {
+    color: #9e9e9e;
 }
-.puzzile-about
-{
+
+.puzzile-about {
     width: 110px;
     display: inline-block;
     border: #333 solid 0.5px;
-    margin:0  33px 0 0;
+    margin: 0 33px 0 0;
     border-radius: 15px;
     text-align: center;
     height: 80px;
     background-color: #202020;
 }
-.img-about
-{
+
+.img-about {
     width: 300px;
     border-radius: 90px;
     margin-bottom: -100px;
-    margin-right: 100px; 
-    padding-bottom:  50px;
-    padding-top:50px ;
+    margin-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 
@@ -616,25 +616,28 @@ h2 {
 .skill-card:hover {
     background-color: tomato;
 }
+
 .bar {
-  background: #222;
-  border-radius: 20px;
-  height: 10px;
+    background: #222;
+    border-radius: 20px;
+    height: 10px;
 }
 
 .fill {
-  background: #ff4d4d;
-  height: 10px;
-  border-radius: 20px;
+    background: #ff4d4d;
+    height: 10px;
+    border-radius: 20px;
 }
-.numper
-{
+
+.numper {
     float: right;
 }
+
 .skill-info {
-  margin-bottom: 8px;
-  color: #fff;
+    margin-bottom: 8px;
+    color: #fff;
 }
+
 a {
     text-decoration: none;
 }
@@ -642,6 +645,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 .one {
     background-color: #222222;
 }
@@ -765,8 +769,10 @@ input {
 textarea {
     color: #ffffff;
     width: 565px;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: auto;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 150px;
     height: 130px;
     padding: 13px;
     border-radius: 5px;
@@ -832,10 +838,10 @@ footer {
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 605px) {
 
-    .al-input {
-        margin-right: 0;
+    input {
+        width: 252px;
     }
 
 }
@@ -860,5 +866,71 @@ footer {
 
     .hamburger {
         display: block;
+    }
+}
+@media (max-width: 6000px)  and (min-width: 4098px)
+{
+    input {
+        width: 255px;
+        display: inline-block;
+    }
+}
+@media (max-width: 587px)
+{
+    .al-input
+    {
+        margin-right: 15px;
+    }
+    input {
+        width: 245px;
+        display: inline-block;
+    }
+}
+@media (max-width: 541px)
+{
+        .al-input
+    {
+        margin-right: 14px;
+    }
+
+    input {
+        width: 230px;
+        display: inline-block;
+    }
+}
+@media (max-width: 538px)
+{
+        .al-input
+    {
+        margin-right: 13px;
+    }
+
+    input {
+        width: 226px;
+        display: inline-block;
+    }
+}
+@media (max-width: 528px)
+{
+        .al-input
+    {
+        margin-right: 2px;
+    }
+
+    input {
+        width: 218px;
+        display: inline-block;
+    }
+}
+@media (max-width: 501px)
+{
+        .al-input
+    {
+        margin-right: 2px;
+    }
+
+    input {
+        width: 210px;
+        display: inline-block;
     }
 }
