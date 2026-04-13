@@ -616,7 +616,25 @@ h2 {
 .skill-card:hover {
     background-color: tomato;
 }
+.bar {
+  background: #222;
+  border-radius: 20px;
+  height: 10px;
+}
 
+.fill {
+  background: #ff4d4d;
+  height: 10px;
+  border-radius: 20px;
+}
+.numper
+{
+    float: right;
+}
+.skill-info {
+  margin-bottom: 8px;
+  color: #fff;
+}
 a {
     text-decoration: none;
 }
@@ -624,7 +642,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
 .one {
     background-color: #222222;
 }
