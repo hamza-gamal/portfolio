@@ -135,11 +135,13 @@ html {
 .skill-card 
 {
     transition: 0.4s;
+    text-align: center;
+    margin: auto;
 }
 .skill-card:hover
 {
-transform:  translate3d(0px, -25px, 100px);
-box-shadow: 0 30px 0px rgba(197, 39, 39, 0.5);
+transform:  translate3d(0px, -15px, 100px);
+box-shadow: 0 20px 0px rgba(197, 39, 39, 0.5);
 cursor: pointer;
 }
 
