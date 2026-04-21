@@ -596,7 +596,17 @@ h2 {
     text-align: center;
 }
 
-
+.img-projict
+{
+    width: 200px;
+    filter: brightness(70%);
+    height: 300px;
+}
+.img-projict:hover
+{
+    filter: brightness(110%) contrast(120%) saturate(130%);
+    transform: scale(1.05);
+}
 .skill-card h3 {
     color: #fff;
     margin-bottom: 10px;
