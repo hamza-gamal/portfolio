@@ -668,8 +668,15 @@ a:hover {
     color: #ffffff;
 
 }
-
-
+.puzzile-about
+{
+    transition: 0.4s;
+}
+.puzzile-about:hover
+{
+transform: translateY(-5px);
+background-color: #444343;
+}
 
 
 /* ////////////////////////////////////////////////////////////////////////// */
