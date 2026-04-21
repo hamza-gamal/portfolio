@@ -123,13 +123,13 @@ html {
 
 
 
-.صوره-اللوجو {
-    margin-top: -19px;
-}
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
+.صوره-اللوجو {
+    margin-top: -19px;
+}
 
 
 .skill-card 
@@ -695,7 +695,7 @@ form {
     display: inline-block;
     border-radius: 5px;
     display: inline-block;
-    background: rgb(105, 39, 39);
+    background: tomato;
     padding-left: 300px;
     padding-right: 300px;
 
