@@ -599,7 +599,7 @@ h2 {
 .img-projict
 {
     width: 170px;
-    filter: brightness(70%);
+    filter: brightness(90%);
     height: 250px;
 }
 .img-projict:hover
@@ -708,10 +708,14 @@ form {
     background: tomato;
     padding-left: 300px;
     padding-right: 300px;
-
+    transition: 0.3s; /* عشان لما تلمسهم اللون يتغير بنعومة */
 }
 
-
+.button:hover
+{
+    transform: scale(1.02); /* يكبروا سنة بسيطة */
+    background: rgb(223, 104, 83);
+}
 .al-contactme {
     background-color: #000000;
     border: #919191 solid 1px;
@@ -813,6 +817,12 @@ footer {
 
 .al-footer {
     margin-right: 200px;
+    transition: 0.3s; /* عشان لما تلمسهم اللون يتغير بنعومة */
+}
+.al-footer:hover {
+    color: #ff4d4d; /* يقلب أحمر زي لون موقعك الأساسي */
+    transform: scale(1.1); /* يكبروا سنة بسيطة */
+    display: inline-block;
 }
 
 .al-input {
