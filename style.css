@@ -812,7 +812,19 @@ footer {
 .hamburger {
     display: none;
 }
+footer a {
+    color: #ffffff; /* عشان يظهروا باللون الأبيض على الخلفية السودة */
+    font-size: 25px; /* كبّر الحجم شوية عشان يبانوا */
+    margin: 0 10px;  /* سيب مسافة بين كل أيقونة والثانية */
+    transition: 0.3s; /* عشان لما تلمسهم اللون يتغير بنعومة */
+}
 
+/* تأثير الـ Hover (لما الماوس ييجي عليهم) */
+footer a:hover {
+    color: #ff4d4d; /* يقلب أحمر زي لون موقعك الأساسي */
+    transform: scale(1.2); /* يكبروا سنة بسيطة */
+    display: inline-block;
+}
 @media (max-width: 1347px) {
 
     .Contact-and-contactme {
