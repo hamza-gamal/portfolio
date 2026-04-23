@@ -46,7 +46,7 @@ html {
 
 } */
 .nav-links a:hover {
-    color: #ffffff;
+    color: #e54848;
     transition: 0.4s;
     /* text-decoration: underline; */
 }
@@ -75,7 +75,8 @@ html {
 
 .all {
     /* background-color:  rgba(255, 255, 255, 0.9); */
-    background-color: rgba(0, 0, 0, 0.98);
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(15px); 
     border-bottom: 1px #464646 solid;
     margin-bottom: 10px;
     height: 40px;
@@ -83,6 +84,7 @@ html {
     padding-bottom: 20px;
     width: 100%;
     position: fixed;
+    top: 0;
     padding-bottom: 10px;
     background-size: contain;
     /* background-image: url(images/hg-logo-1.png); */
@@ -106,15 +108,13 @@ html {
 }
 
 .logo:hover a {
-    color: #ffffff;
+    color: #e54848;
     display: inline-block;
 }
 
 .logo:hover .صوره-اللوجو {
     transform: scale(1.1);
-    filter: contrast(1.2) saturate(1.5) brightness(999999) ;
-    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) ;
-
+    filter: brightness(0) saturate(100%) invert(35%) sepia(86%) saturate(4619%) hue-rotate(345deg) brightness(113%) contrast(80%);
 }
 
 .logo a, .صوره-اللوجو {
@@ -126,15 +126,16 @@ html {
     margin-top: -20px;
 }
 
-.line
-{
-    all: unset;
-    position: relative;
+.line {
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    left: 0;
     width: 100%;
-    height: 1px;
-    color: #000;
+    height: 0.5px;
+    background-color: #000000;
+    z-index: 999999999999999999999999999999999999999999999999999;
 }
-
 
 
 
@@ -145,8 +146,15 @@ html {
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-
-
+.Welcomeportfolio
+{
+transition: 0.4s;
+}
+.Welcomeportfolio:hover
+{
+color: tomato;
+transform: scale(1.07);
+}
 
 .skill-card {
     transition: 0.4s;
@@ -358,6 +366,7 @@ textarea {
     border-radius: 50%;
     text-align: center;
     border: #141414 solid;
+    box-shadow: 1px 1px 30px rgba(155, 26, 26);
     margin-top: 96px;
 
 }
@@ -538,7 +547,8 @@ h1 {
 
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), ;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), ; */
+    background-color: #000000;
     background-size: cover;
     background-position: center;
     display: flex;
