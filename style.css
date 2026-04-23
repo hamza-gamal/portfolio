@@ -13,6 +13,7 @@
     background-size: auto, 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
+    text-decoration: none;
 
 }
 
@@ -145,6 +146,18 @@ html {
 
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 .Welcomeportfolio
 {
@@ -360,30 +373,12 @@ textarea {
     text-align: center;
 }
 
-.image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    text-align: center;
-    border: #141414 solid;
-    box-shadow: 1px 1px 30px rgba(155, 26, 26);
-    margin-top: 96px;
-
-}
-
-
 .stop2 {
     clear: both;
 }
 
 /* ---------------- */
-.image:hover {
-    transform: rotate(360deg);
-}
 
-.image {
-    transition: 0.8s;
-}
 
 .title-parent {
     font-style: italic;
@@ -701,6 +696,107 @@ a:hover {
     transform: translateY(-5px);
     background-color: #444343;
 }
+
+
+
+
+
+
+
+
+/* .image-2-caption
+{
+
+} 
+*/
+.image-caption:hover .image{
+    transform: scale(1.1,1.1);
+}
+
+.image-caption:hover .caption{
+    opacity: 1;
+    transform: rotate(360deg);
+}
+.image-caption:hover .caption h2{
+    left: 0;
+}
+.image-caption:hover .caption p{
+    left: 0;
+}
+
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    border: #141414 solid;
+    box-shadow: 1px 1px 10px rgba(155, 26, 26);
+    margin-top: 96px;
+    transition: transform 1s 1s;    
+    margin: auto;
+}
+.image-caption
+{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: -32px;
+    height: 230px;
+    margin: auto;
+    width: 240px;
+}
+.caption
+{
+    position: absolute;
+    overflow: hidden; 
+    left: 20px;
+    background-color: rgba(99, 99, 99, 0.7);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    top: 13px;
+    opacity: 0;
+    transition: opacity 1s , transform 1s;
+}
+.caption p
+{
+    color: tomato;
+    margin-top: 20px;
+    font-family: "Exo 2", sans-serif;
+    font-size: large;
+    position: relative;
+    transition: left 1s 1s;
+    left: 100%;
+}
+
+.caption h2
+{
+    position: relative;
+    transition: left 1s 1s;
+    left: 100%;
+    background-color: rgba(0, 0, 0);
+    padding-top: 30px;
+    margin: 0;
+    font-size: 20px;
+    color: tomato;
+    width: 90%;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ////////////////////////////////////////////////////////////////////////// */
