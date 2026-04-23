@@ -60,29 +60,6 @@ html {
      height:60px; 
      width: auto; 
 } */
-.logo a {
-    color: rgb(170, 170, 170);
-}
-
-.logo {
-    font-size: 24px;
-    font-family: "Exo 2", sans-serif;
-    margin-right: 10px;
-    float: right;
-}
-
-.logo a:hover {
-    color: #ffffff;
-    transition: 0.4s;
-
-}
-
-.logo img:hover {
-    /* background-color: rgba(255, 255, 255, 0.2); */
-    transition: 0.4s;
-    transform: scale(1.1);
-}
-
 .nav-links li {
     display: inline-block;
     margin-left: 20px;
@@ -117,6 +94,47 @@ html {
 }
 
 
+.logo a {
+    color: rgb(170, 170, 170);
+}
+
+.logo {
+    font-size: 24px;
+    font-family: "Exo 2", sans-serif;
+    margin-right: 10px;
+    float: right;
+}
+
+.logo:hover a {
+    color: #ffffff;
+    display: inline-block;
+}
+
+.logo:hover .صوره-اللوجو {
+    transform: scale(1.1);
+    filter: contrast(1.2) saturate(1.5) brightness(999999) ;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) ;
+
+}
+
+.logo a, .صوره-اللوجو {
+    transition: 0.4s;
+}
+
+
+.صوره-اللوجو {
+    margin-top: -20px;
+}
+
+.line
+{
+    all: unset;
+    position: relative;
+    width: 100%;
+    height: 1px;
+    color: #000;
+}
+
 
 
 
@@ -128,22 +146,18 @@ html {
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
-.صوره-اللوجو {
-    margin-top: -20px;
-}
 
 
-.skill-card 
-{
+.skill-card {
     transition: 0.4s;
     text-align: center;
     margin: auto;
 }
-.skill-card:hover
-{
-transform:  translate3d(0px, -15px, 100px);
-box-shadow: 0 20px 0px rgba(197, 39, 39, 0.5);
-cursor: pointer;
+
+.skill-card:hover {
+    transform: translate3d(0px, -15px, 100px);
+    box-shadow: 0 20px 0px rgba(197, 39, 39, 0.5);
+    cursor: pointer;
 }
 
 
@@ -477,7 +491,6 @@ textarea {
 
 
 
-
 /* ///////////////////////////////////////////////////////////////////////////////// */
 
 
@@ -597,17 +610,17 @@ h2 {
     text-align: center;
 }
 
-.img-projict
-{
+.img-projict {
     width: 170px;
     filter: brightness(90%);
     height: 250px;
 }
-.img-projict:hover
-{
+
+.img-projict:hover {
     filter: brightness(110%) contrast(120%) saturate(130%);
     transform: scale(1.05);
 }
+
 .skill-card h3 {
     color: #fff;
     margin-bottom: 10px;
@@ -669,14 +682,14 @@ a:hover {
     color: #ffffff;
 
 }
-.puzzile-about
-{
+
+.puzzile-about {
     transition: 0.4s;
 }
-.puzzile-about:hover
-{
-transform: translateY(-5px);
-background-color: #444343;
+
+.puzzile-about:hover {
+    transform: translateY(-5px);
+    background-color: #444343;
 }
 
 
@@ -684,7 +697,7 @@ background-color: #444343;
 form {
     background: #000000;
     position: absolute;
-    width: 600px;
+    width: 666px;
     border-radius: 20px;
     color: #ffffff;
     overflow: hidden;
@@ -716,14 +729,16 @@ form {
     background: tomato;
     padding-left: 300px;
     padding-right: 300px;
-    transition: 0.3s; /* عشان لما تلمسهم اللون يتغير بنعومة */
+    transition: 0.3s;
+    /* عشان لما تلمسهم اللون يتغير بنعومة */
 }
 
-.button:hover
-{
-    transform: scale(1.02); /* يكبروا سنة بسيطة */
+.button:hover {
+    transform: scale(1.02);
+    /* يكبروا سنة بسيطة */
     background: rgb(223, 104, 83);
 }
+
 .al-contactme {
     background-color: #000000;
     border: #919191 solid 1px;
@@ -825,12 +840,13 @@ footer {
 
 .al-footer {
     margin-right: 200px;
-    transition: 0.3s; /* عشان لما تلمسهم اللون يتغير بنعومة */
-}
-.al-footer:hover {
-    color: #ff4d4d; /* يقلب أحمر زي لون موقعك الأساسي */
-    transform: scale(1.1); /* يكبروا سنة بسيطة */
     display: inline-block;
+    transition: 0.3s;
+}
+
+.al-footer:hover {
+    color: #ff4d4d;
+    transform: scale(1.1);
 }
 
 .al-input {
@@ -840,37 +856,62 @@ footer {
 .hamburger {
     display: none;
 }
+
 footer a {
-    color: #ffffff; /* عشان يظهروا باللون الأبيض على الخلفية السودة */
-    font-size: 25px; /* كبّر الحجم شوية عشان يبانوا */
-    margin: 0 10px;  /* سيب مسافة بين كل أيقونة والثانية */
-    transition: 0.3s; /* عشان لما تلمسهم اللون يتغير بنعومة */
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0 10px;
+    transition: 0.3s;
 }
 
-/* تأثير الـ Hover (لما الماوس ييجي عليهم) */
 footer a:hover {
-    color: #ff4d4d; /* يقلب أحمر زي لون موقعك الأساسي */
-    transform: scale(1.2); /* يكبروا سنة بسيطة */
+    color: #ff4d4d;
+    transform: scale(1.2);
     display: inline-block;
 }
+
 @media (max-width: 1347px) {
 
     .Contact-and-contactme {
-        display: block;
+        display: inline-block;
     }
 
     .Contactme {
-        margin: 40px auto;
-        width: 600px;
+        margin: auto;
+        width: 400px;
+        margin-right: 0;
+        margin-bottom: 0;
     }
 
     form {
         position: static;
-        margin: 40px auto;
-        height: auto;
+        margin-right: 5px;
+        height: 310px;
+        width: 600px;
+        margin-left: 0;
+        margin-bottom: -33px;
     }
 
 }
+
+@media (max-width: 1200px) {
+
+    .Contactme {
+        width: 600px;
+        margin: 80px 0 40px;
+    }
+
+}
+/* @media (max-width: 697px) {
+
+    input {
+        width: 100%;
+    }
+   form,textarea
+   {
+    
+   }
+} */
 
 @media (max-width: 605px) {
 
@@ -902,28 +943,27 @@ footer a:hover {
         display: block;
     }
 }
-@media (max-width: 6000px)  and (min-width: 4098px)
-{
+
+@media (max-width: 6000px) and (min-width: 4098px) {
     input {
         width: 255px;
         display: inline-block;
     }
 }
-@media (max-width: 587px)
-{
-    .al-input
-    {
+
+@media (max-width: 587px) {
+    .al-input {
         margin-right: 15px;
     }
+
     input {
         width: 245px;
         display: inline-block;
     }
 }
-@media (max-width: 541px)
-{
-        .al-input
-    {
+
+@media (max-width: 569px) {
+    .al-input {
         margin-right: 14px;
     }
 
@@ -932,10 +972,9 @@ footer a:hover {
         display: inline-block;
     }
 }
-@media (max-width: 538px)
-{
-        .al-input
-    {
+
+@media (max-width: 538px) {
+    .al-input {
         margin-right: 13px;
     }
 
@@ -944,10 +983,9 @@ footer a:hover {
         display: inline-block;
     }
 }
-@media (max-width: 528px)
-{
-        .al-input
-    {
+
+@media (max-width: 528px) {
+    .al-input {
         margin-right: 2px;
     }
 
@@ -956,10 +994,9 @@ footer a:hover {
         display: inline-block;
     }
 }
-@media (max-width: 501px)
-{
-        .al-input
-    {
+
+@media (max-width: 501px) {
+    .al-input {
         margin-right: 2px;
     }
 
@@ -968,10 +1005,9 @@ footer a:hover {
         display: inline-block;
     }
 }
-@media (max-width: 482px)
-{
-        .al-input
-    {
+
+@media (max-width: 482px) {
+    .al-input {
         margin-right: 2px;
     }
 
@@ -980,10 +1016,9 @@ footer a:hover {
         display: inline-block;
     }
 }
-@media (max-width: 450px)
-{
-        .al-input
-    {
+
+@media (max-width: 450px) {
+    .al-input {
         margin-right: 2px;
     }
 
@@ -992,10 +1027,9 @@ footer a:hover {
         display: inline-block;
     }
 }
-@media (max-width: 441px)
-{
-        .al-input
-    {
+
+@media (max-width: 441px) {
+    .al-input {
         margin-right: 2px;
     }
 
@@ -1003,10 +1037,10 @@ footer a:hover {
         width: 181px;
         display: inline-block;
     }
-}@media (max-width: 424px)
-{
-        .al-input
-    {
+}
+
+@media (max-width: 424px) {
+    .al-input {
         margin-right: 2px;
     }
 
@@ -1015,10 +1049,9 @@ footer a:hover {
         display: inline-block;
     }
 }
-@media (max-width: 420px)
-{
-        .al-input
-    {
+
+@media (max-width: 420px) {
+    .al-input {
         margin-right: 2px;
     }
 
@@ -1027,10 +1060,9 @@ footer a:hover {
         display: inline-block;
     }
 }
-@media (max-width: 401px)
-{
-        .al-input
-    {
+
+@media (max-width: 401px) {
+    .al-input {
         margin-right: 2px;
     }
 
@@ -1039,3 +1071,20 @@ footer a:hover {
         display: inline-block;
     }
 }
+
+@media (max-width: 635px) {
+    .al-footer {
+        margin: auto;
+        display: block;
+    }
+}
+
+/* @keyframes pulse {
+  0% { transform: scale(1.1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1.1); }
+}
+
+.logo:hover .صوره-اللوجو {
+    animation: pulse 0.6s infinite; 
+} */
