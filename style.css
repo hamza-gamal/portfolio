@@ -234,7 +234,7 @@ a {
 
 /* الـ Hero */
 .hero {
-    height: auto;
+    height: 100%;
     padding-top: 30px;
     background-color: #111111;
     color: #fff;
