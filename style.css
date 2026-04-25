@@ -193,7 +193,10 @@ transform: scale(1.07);
     box-shadow: 0 20px 0px rgba(197, 39, 39, 0.5);
     cursor: pointer;
 }
-
+.skill-card:active
+{
+    transform: scale(0.90);
+}
 
 .stop2 {
     display: none;
@@ -490,8 +493,17 @@ textarea {
     text-align: center;
     height: 80px;
     background-color: #202020;
+    transition: 0.4s;
+}
+.puzzile-about:hover {
+    transform: translateY(-5px);
+    background-color: #444343;
 }
 
+.puzzile-about:active
+{
+    transform: scale(0.90);
+}
 .img-about {
     width: 300px;
     border-radius: 90px;
@@ -701,14 +713,6 @@ a:hover {
 
 }
 
-.puzzile-about {
-    transition: 0.4s;
-}
-
-.puzzile-about:hover {
-    transform: translateY(-5px);
-    background-color: #444343;
-}
 
 
 
