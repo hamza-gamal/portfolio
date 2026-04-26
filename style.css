@@ -42,15 +42,32 @@ a {
     display: none;
 }
 
+img {
+    width: 100%;
+}
+h1 {
+    text-align: center;
+}
 
 
-/* //////////////////////////////////////////////////////           navbar         //////////////////////////////////////////////////////*/
+
+/* //////////////////////////////////////////////////////           navbar 🔴         //////////////////////////////////////////////////////*/
 
 
 
-/* .navbar {
+ .Welcomeportfolio
+{
+transition: 0.4s;
+}
+.Welcomeportfolio:hover
+{
+color: tomato;
+transform: scale(1.07);
+}
+.hamburger {
+    display: none;
+}
 
-} */
 .nav-links a:hover {
     color: #e54848;
     transition: 0.4s;
@@ -61,11 +78,6 @@ a {
     color: rgb(170, 170, 170);
 }
 
-/* .nav-logo {
- margin-right: 1100px;  
-     height:60px; 
-     width: auto; 
-} */
 .nav-links li {
     display: inline-block;
     margin-left: 20px;
@@ -78,10 +90,28 @@ a {
     text-decoration: none;
     font-size: 20px;
 }
+.Welcomeportfolio
+{
+transition: 0.4s;
+}
+.Welcomeportfolio
+{
+transition: 0.4s;
+}
+.Welcomeportfolio:hover
+{
+color: tomato;
+transform: scale(1.07);
+}
 
+.img-logo {
+    width: 100px;
+    float: right;
+    margin-bottom: 6px;
+    padding-bottom: 10px;
+}
 .navbar {
-    /* background-color:  rgba(255, 255, 255, 0.9); */
-    background-color: rgba(0, 0, 0, 0.6);
+    background: black;  
     backdrop-filter: blur(15px); 
     border-bottom: 1px #464646 solid;
     margin-bottom: 10px;
@@ -169,7 +199,7 @@ a {
 }
 
 
-/* //////////////////////////////////////////////////////           hero         //////////////////////////////////////////////////////*/
+/* //////////////////////////////////////////////////////           hero 🔴         //////////////////////////////////////////////////////*/
 
 .hero {
     height: 100%;
@@ -178,6 +208,16 @@ a {
     background-color: #111111;
     color: #fff;
     text-align: center;
+    height: 100vh;
+    margin-bottom: 100px;
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
 }
 
 .hero-content {
@@ -202,6 +242,8 @@ a {
 
 }
 
+
+
 .hero img {
     margin-left: 544px;
 }
@@ -217,464 +259,6 @@ a {
 .Hamza_Gamal {
     text-shadow: 1px 1px 30px rgba(155, 26, 26, 0.9);
 }
-
-/* //////////////////////////////////////////////////////           about         //////////////////////////////////////////////////////*/
-
-
-.about {
-    background-color:#000000;
-    background-size: cover;
-    margin: auto;
-    width: 1200px;
-    margin-bottom: 50px;
-    border-radius: 33px;
-    padding: 0 0 50px 50px;
-    background-color: #0c0c0c;
-}
-
-.about-dont-img {
-    display: inline-block;
-}
-.p1-about {
-    color: rgb(255, 0, 0);
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
-}
-
-.p2-about {
-    color: #9e9e9e;
-}
-
-.puzzile-about {
-    width: 110px;
-    display: inline-block;
-    border: #333 solid 0.5px;
-    margin: 0 33px 0 0;
-    border-radius: 15px;
-    text-align: center;
-    height: 80px;
-    background-color: #202020;
-    transition: 0.4s;
-}
-
-.puzzile-about:hover {
-    transform: translateY(-5px);
-    background-color: #444343;
-}
-
-.puzzile-about:active
-{
-    transform: scale(0.90);
-}
-.img-about {
-    width: 300px;
-    border-radius: 90px;
-    margin-bottom: -100px;
-    margin-right: 100px;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-
-
-/* //////////////////////////////////////////////////////           Projects         //////////////////////////////////////////////////////*/
-.Projects
-{
-display: inline-block;
-margin: auto;
-text-align: center;
-margin-left: 10px;
-background-color: #111;
-width: 95%;
-border-radius: 30px;
-margin-bottom: 100px;
-}
-.Project3 {
-    overflow: visible;
-}
-
-.Project {
-    display: inline-block;
-    margin: 70px 10px 0 10px;
-    transition: 0.4s;
-    cursor: pointer;
-    border-radius: 15px;
-    overflow: visible;
-}
-
-.Project:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 0 25px 8px rgba(255, 77, 77, 0.6);
-    border-radius: 15px;
-}.Project p
-{
-    color: rgb(114, 113, 113);
-    background-color: #161616;
-    text-align: center;
-    font-size: 20px;
-    height: 30px;
-    width: 350px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    margin-top: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-left: 10px;
-}
-.Project img
-{
-    width: 350px;
-    height: 250px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    margin: 10px 10px 0;
-    display: block;
-}
-/* //////////////////////////////////////////////////////           skills         //////////////////////////////////////////////////////*/
-.skills{
-    transition: 0.4s;
-    text-align: center;
-    margin: auto;
-}
-.skills:hover {
-
-}
-.skills
-{
-    border-radius: 23px;padding-bottom: 33px; margin-top: 150px; width: 500px;margin: auto; padding: 0 1.5% 1.5% 1.5%; margin-top: 33px ;  background-color: #000000; margin-top: 20px;
-        background-color: #111;
-    margin-top: 20px;
-
-}
-.bar {
-    background: #222;
-    border-radius: 20px;
-    height: 10px;
-}
-
-.fill {
-    background: #ff4d4d;
-    height: 10px;
-    border-radius: 20px;
-}
-
-
-
-/* //////////////////////////////////////////////////////           footer         //////////////////////////////////////////////////////*/
-
-
-
-
-
-.Welcomeportfolio
-{
-transition: 0.4s;
-}
-.Welcomeportfolio:hover
-{
-color: tomato;
-transform: scale(1.07);
-}
-
-
-
-
-
-.members,
-.two {
-    position: relative;
-    /* عشان الـ z-index يشتغل */
-    z-index: 5;
-    /* يخليها فوق الخلفية */
-}
-
-.img-logo {
-    width: 100px;
-    float: right;
-    margin-bottom: 6px;
-    padding-bottom: 10px;
-}
-
-.main-btn {
-    background: #ff4d4d;
-    color: #fff;
-    padding: 12px 25px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 10px;
-}
-
-.sec-btn {
-    border: 2px solid #fff;
-    color: #fff;
-    padding: 10px 23px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 10px;
-}
-
-.main-btn:hover {
-    background-color: #111111;
-    transition: 0.3s;
-    border: #fff solid 2px;
-}
-
-.sec-btn:hover {
-    background-color: #ff4d4d;
-    border: none;
-    transition: 0.3s;
-}
-
-.loahdihm {
-    display: inline-block;
-    margin-top: 515px;
-}
-
-
-
-
-
-.bdaya-safha {
-    background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1352&q=80');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
-
-input {
-    background-color: #000;
-    border: 1px solid #333;
-    border-radius: 5px;
-    padding: 10px;
-    width: 268px;
-    color: #ffffff;
-}
-
-textarea {
-    background-color: #000;
-    border: 1px solid #333;
-    border-radius: 5px;
-    padding: 10px;
-
-}
-
-
-
-.images-div {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: auto;
-}
-
-.images-margin {
-    margin: auto;
-    width: 70;
-    text-align: center;
-}
-
-.stop2 {
-    clear: both;
-}
-
-/* ---------------- */
-
-
-.title-parent {
-    font-style: italic;
-    font-weight: 500;
-    background-color: rgb(20, 20, 20);
-    border: solid #555454;
-    font-size: 35px;
-    float: left;
-    height: 64px;
-    width: 100%;
-}
-
-
-.stop {
-    clear: both;
-}
-
-.title-child {
-    display: inline-block;
-    float: left;
-}
-
-.title-color {
-    width: 26%;
-    height: 63px;
-    text-align: center;
-    display: inline-block;
-}
-
-.stop {
-    clear: both;
-}
-
-.letter {
-    font-size: 52px;
-    color: rgb(145, 145, 145);
-
-
-
-}
-
-.red {
-    background-color: red;
-}
-
-.white {
-    background-color: white;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Coat_of_arms_of_Egypt_%28Official%29.svg/250px-Coat_of_arms_of_Egypt_%28Official%29.svg.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-.black {
-    background-color: rgb(0, 0, 0);
-}
-
-/* //////////////////////////////////////////////////////////////////////////////// */
-
-
-
-
-
-.all-img-not-img {
-    margin-bottom: 23px;
-}
-
-
-
-
-
-
-
-
-
-/* ///////////////////////////////////////////////////////////////////////////////// */
-
-
-.memper {
-    /* background-color: rgb(51, 51, 51); */
-    width: 33.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333%;
-    text-align: center;
-    display: inline-block;
-    float: left;
-    padding-bottom: 0px;
-    text-decoration: none;
-    margin-bottom: 52px;
-}
-
-.members {
-    background-color: #000000;
-}
-
-.جمب-بعض {
-    display: inline-block;
-}
-
-.tadelmemper4 {
-    /* padding-bottom: 0px; */
-}
-
-.stop {
-    clear: both;
-}
-
-.form {
-    overflow: hidden;
-}
-
-img {
-    width: 100%;
-}
-
-
-
-h1 {
-    text-align: center;
-}
-
-
-.hero {
-    height: 100vh;
-    margin-bottom: 100px;
-    background-color: #000000;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-}
-
-
-h2 {
-    color: rgb(255, 255, 255);
-}
-
-.a {
-    color: rgb(80, 79, 79);
-
-}
-
-
-.bizo {
-    background-color: rgb(0, 77, 10);
-}
-
-
-.link {
-    color: rgb(199, 61, 61);
-}
-
-
-.for {}
-
-
-
-.numper {
-    float: right;
-}
-
-.skill-info {
-    margin-bottom: 8px;
-    color: #fff;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    /* text-decoration: underline; */
-}
-
-.one {
-    background-color: #222222;
-}
-
-.two {
-    background-color: #555454;
-
-}
-
-.for {
-    color: #ffffff;
-
-}
-
-
-
-
-
-
-
-
 
 .image-caption:hover .image{
     transform: scale(1.1,1.1);
@@ -694,6 +278,7 @@ a:hover {
 
 .image {
     width: 200px;
+    filter: contrast(115%) brightness(110%) saturate(150%) ;
     height: 200px;
     border-radius: 50%;
     text-align: center;
@@ -751,23 +336,184 @@ a:hover {
 }
 
 
+/* //////////////////////////////////////////////////////           about 🔴         //////////////////////////////////////////////////////*/
 
 
+.about {
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 0 0 50px 50px;
+    background-color: #0e0e0e;
+    text-align: center;
+}
+.about-dont-img {
+    display: inline-block;
+    text-align: left;
+}
+.p1-about {
+    color: rgb(255, 0, 0);
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.p2-about {
+    color: #9e9e9e;
+}
+
+.puzzile-about {
+    width: 110px;
+    display: inline-block;
+    border: #333 solid 0.5px;
+    margin: 0 33px 0 0;
+    border-radius: 15px;
+    text-align: center;
+    height: 80px;
+    background-color: #202020;
+    transition: 0.4s;
+}
+
+.puzzile-about:hover {
+    transform: translateY(-5px);
+    background-color: #444343;
+}
+
+.puzzile-about:active
+{
+    transform: scale(0.90);
+}
+.img-about {
+    width: 300px;
+    border-radius: 90px;
+    margin-bottom: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+}
 
 
+.all-not-img {
+    margin-bottom: 23px;
+}
 
 
+/* //////////////////////////////////////////////////////           Projects 🔴         //////////////////////////////////////////////////////*/
+.Projects
+{
+        display: inline-block;
+        margin: auto;
+        text-align: center;
+        margin-left: 10px;
+        background-color: #0c0c0c;
+        width: 95%;
+        border-radius: 30px;
+        margin-bottom: 100px;
+}
+.Project3 {
+    overflow: visible;
+}
+
+.Project {
+    display: inline-block;
+    margin: 70px 10px 0 10px;
+    transition: 0.4s;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 15px;
+    overflow: visible;
+}
+.Projects h1
+{
+    margin-top: 20px;
+    transition: 0.4s;
+}
+.Project p
+{
+    color: rgb(114, 113, 113);
+    background-color: #161616;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.4s;
+    height: 30px;
+    width: 350px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    font-family: "Exo 2", sans-serif;
+}
+.Project img
+{
+    width: 350px;
+    height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 10px 10px 0;
+    display: block;
+    transition: 0.4s;
+}
+.Project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px 20px rgba(255, 77, 77, 0.6);
+    border-radius: 15px;
+}
+.Project:hover img
+{
+    filter: contrast(110%) brightness(70%) saturate(120%);
+}
+
+.Project:hover p
+{
+  font-weight: bold;
+}
+
+/* //////////////////////////////////////////////////////           skills 🔴         //////////////////////////////////////////////////////*/
+.skills{
+    transition: 0.4s;
+    text-align: center;
+    margin: auto;
+}
+.skills:hover {
+
+}
+.skills
+{
+    border-radius: 23px;padding-bottom: 33px; margin-top: 150px; width: 500px;margin: auto; padding: 0 1.5% 1.5% 1.5%; margin-top: 33px ;  background-color: #000000; margin-top: 20px;
+    background-color: #0c0c0c;
+    margin-top: 20px;
+
+}
+.bar {
+    background: #222;
+    border-radius: 20px;
+    height: 10px;
+}
+
+.fill {
+    background: #ff4d4d;
+    height: 10px;
+    border-radius: 20px;
+}
+
+.numper {
+    float: right;
+}
+
+.skill-info {
+    margin-bottom: 8px;
+    color: #fff;
+}
 
 
-
-
-
-
-
+/* //////////////////////////////////////////////////////           footer 🔴         //////////////////////////////////////////////////////*/
 
 
 form {
     background: #000000;
+    overflow: hidden;
     position: absolute;
     width: 666px;
     border-radius: 20px;
@@ -782,10 +528,55 @@ form {
     margin-top: 80px;
 }
 
-.zarair-transparent {
-    background-color: transparent;
-
+input {
+    background-color: #000;
+    border: 1px solid #333;
+    border-radius: 5px;
+    display: inline-block;
+    margin: auto;
+    width: 260px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 268px;
+    color: #ffffff;
 }
+.footer
+{
+    text-align: center;
+}
+
+
+.main-btn {
+    background: #ff4d4d;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.sec-btn {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 23px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.main-btn:hover {
+    background-color: #111111;
+    transition: 0.3s;
+    border: #fff solid 2px;
+}
+
+.sec-btn:hover {
+    background-color: #ff4d4d;
+    border: none;
+    transition: 0.3s;
+}
+
+
 
 .button {
     padding: 20px;
@@ -821,35 +612,6 @@ form {
     margin-bottom: 33px;
 }
 
-
-.تنسيق {
-    background-color: #000000;
-}
-
-.جمب-بعض {
-    display: inline-block;
-    padding-bottom: 10px;
-}
-
-.al-name-beta3-al-contantme {}
-
-.al-contact-me1 {
-    display: none;
-    background-color: #8b4141;
-    border: #919191 solid 0.px;
-    color: #707070;
-    padding: 5px;
-    border-radius: 6px;
-
-    margin-bottom: 33px;
-    margin-right: 43px;
-    width: 100px;
-    margin-bottom: 233px;
-    margin-top: 122px;
-    display: inline-block;
-
-}
-
 .Contactme {
     background-color: #000000;
     width: 444px;
@@ -862,12 +624,6 @@ form {
     text-align: center;
 }
 
-input {
-    display: inline-block;
-    margin: auto;
-    width: 260px;
-    margin-bottom: 20px;
-}
 
 textarea {
     color: #ffffff;
@@ -879,6 +635,10 @@ textarea {
     height: 130px;
     padding: 13px;
     border-radius: 5px;
+    background-color: #000;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
     margin: auto;
 }
 
@@ -886,14 +646,8 @@ textarea {
     display: inline-block;
 }
 
-.clearclear {
-    clear: both;
-}
-.footer
-{
-    text-align: center;
-}
 footer {
+    text-align: center;
     background: #111;
     color: #fff;
     padding: 20px;
@@ -904,14 +658,6 @@ footer {
 
 }
 
-.اللوجو-اللي-في-الفوتر {
-    width: 100PX;
-    display: inline-block;
-}
-
-.hamburger {
-    display: none;
-}
 
 .al-footer {
     margin-right: 200px;
@@ -928,9 +674,6 @@ footer {
     margin-right: 3.5%;
 }
 
-.hamburger {
-    display: none;
-}
 
 footer a {
     color: #ffffff;
@@ -945,7 +688,7 @@ footer a:hover {
     display: inline-block;
 }
 
-/* //////////////////////////////////////////////////////////////// media //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////// media 🔴 //////////////////////////////////////////////////////////// */
 @media (max-width: 1347px) {
 
     .Contact-and-contactme {
@@ -1132,7 +875,7 @@ footer a:hover {
     }
 
     input {
-        width: 166px;
+        width: 230px;
         display: inline-block;
     }
 }
@@ -1146,5 +889,62 @@ footer a:hover {
     {
       overflow-x: hidden;
     }
+    .skills
+    {
+        width: 90%;
+    }
+    .Contactme
+    {
+        width: 70%;
+        height: 300px;
+        margin: auto;
+    }
+    form
+    {
+        margin-bottom: 32px;
+        width: 250px;
+    }
+    textarea
+    {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .button
+    {
+        margin-top: 10px;
+        margin-bottom: 0;
+        width: 100px;
+    }
+    button
+    {
+        width: 100px;
+    }
 }
-
+@media  (max-width: 967px) {
+   .img-about
+  {
+    display: block;
+    margin-bottom: 30px;
+    padding-top: 10px;
+  }  
+  .puzzile-about
+  {
+    position: relative;
+    left: 0;
+  }
+  .about
+  {}
+}
+@media (max-width:777px)
+{
+.Project
+    {
+    padding-top: 30px;
+    margin-right: 0;
+    padding-right: 0;
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: 60%;
+    }
+}
