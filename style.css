@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
 
 
-.body {
+body {
     color: rgb(255, 255, 255);
     /* background-image: url(images/ورده.webp), url(images/web_page.jpg); */
     background-color: #111111;
@@ -33,13 +33,18 @@ html {
 }
 
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.stop {
+    display: none;
+}
 
 
 
-
-
-
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* //////////////////////////////////////////////////////           navbar         //////////////////////////////////////////////////////*/
 
 
 
@@ -74,7 +79,7 @@ html {
     font-size: 20px;
 }
 
-.all {
+.navbar {
     /* background-color:  rgba(255, 255, 255, 0.9); */
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(15px); 
@@ -138,35 +143,220 @@ html {
     z-index: 999999999999999999999999999999999999999999999999999;
 }
 
-/* .🌙
-{
-   background-color: #2e2e2e; border-radius: 20%;
-   transition: 0.5s; 
+
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Exo 2';
 }
 
-.🌙:hover
-{
-   background-color: #e54848;; 
-   
+.logo span {
+    color: #ff4d4d;
 }
 
-.🌙:hover body
-{
-   background-color: #e54848;; 
-   
+.nav-links {
+    list-style: none;
 }
- */
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
 
 
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* //////////////////////////////////////////////////////           hero         //////////////////////////////////////////////////////*/
+
+.hero {
+    height: 100%;
+    margin-top: 33px;
+    padding-top: 30px;
+    background-color: #111111;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    display: block;
+}
+
+.hero h1 {
+    font-size: 80px;
+    font-family: 'Exo 2';
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 24px;
+    font-family: 'Dancing Script';
+    color: #ff4d4d;
+    margin-bottom: 22px;
+}
+.text-hero
+{
+        margin-top: 9vh;
+
+}
+
+.hero img {
+    margin-left: 544px;
+}
+
+
+.hero img {
+    margin: auto;
+    margin-top: 10px;
+}
 
 
 
+.Hamza_Gamal {
+    text-shadow: 1px 1px 30px rgba(155, 26, 26, 0.9);
+}
+
+/* //////////////////////////////////////////////////////           about         //////////////////////////////////////////////////////*/
+
+
+.about {
+    background-color:#000000;
+    background-size: cover;
+    margin: auto;
+    width: 1200px;
+    margin-bottom: 50px;
+    border-radius: 33px;
+    padding: 0 0 50px 50px;
+    background-color: #0c0c0c;
+}
+
+.about-dont-img {
+    display: inline-block;
+}
+.p1-about {
+    color: rgb(255, 0, 0);
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.p2-about {
+    color: #9e9e9e;
+}
+
+.puzzile-about {
+    width: 110px;
+    display: inline-block;
+    border: #333 solid 0.5px;
+    margin: 0 33px 0 0;
+    border-radius: 15px;
+    text-align: center;
+    height: 80px;
+    background-color: #202020;
+    transition: 0.4s;
+}
+
+.puzzile-about:hover {
+    transform: translateY(-5px);
+    background-color: #444343;
+}
+
+.puzzile-about:active
+{
+    transform: scale(0.90);
+}
+.img-about {
+    width: 300px;
+    border-radius: 90px;
+    margin-bottom: -100px;
+    margin-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+/* //////////////////////////////////////////////////////           Projects         //////////////////////////////////////////////////////*/
+.Projects
+{
+display: inline-block;
+margin: auto;
+text-align: center;
+margin-left: 10px;
+margin-bottom: 100px;
+}
+.Project3 {
+    overflow: visible;
+}
+
+.Project {
+    display: inline-block;
+    margin: 70px 10px 0 10px;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 15px;
+    overflow: visible;
+}
+
+.Project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px 8px rgba(255, 77, 77, 0.6);
+    border-radius: 15px;
+}.Project p
+{
+    color: rgb(114, 113, 113);
+    background-color: #161616;
+    text-align: center;
+    font-size: 20px;
+    height: 30px;
+    width: 350px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+.Project img
+{
+    width: 350px;
+    height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 10px 10px 0;
+    display: block;
+}
+/* //////////////////////////////////////////////////////           skills         //////////////////////////////////////////////////////*/
+.skills{
+    transition: 0.4s;
+    text-align: center;
+    margin: auto;
+}
+.skills:hover {
+
+}
+.skills
+{
+    border-radius: 23px;padding-bottom: 33px; margin-top: 150px; width: 500px;margin: auto; padding: 0 1.5% 1.5% 1.5%; margin-top: 33px ;  background-color: #000000; margin-top: 20px;
+        background-color: #000000;
+    margin-top: 20px;
+
+}
+.bar {
+    background: #222;
+    border-radius: 20px;
+    height: 10px;
+}
+
+.fill {
+    background: #ff4d4d;
+    height: 10px;
+    border-radius: 20px;
+}
 
 
 
-
-
+/* //////////////////////////////////////////////////////           footer         //////////////////////////////////////////////////////*/
 
 
 
@@ -182,26 +372,8 @@ color: tomato;
 transform: scale(1.07);
 }
 
-.skill-card {
-    transition: 0.4s;
-    text-align: center;
-    margin: auto;
-}
 
-.skill-card:hover {
-    transform: translate3d(0px, -15px, 100px);
-    box-shadow: 0 20px 0px rgba(197, 39, 39, 0.5);
-    cursor: pointer;
-}
-.skill-card:active
-{
-    transform: scale(0.90);
-}
 
-.stop2 {
-    display: none;
-    /* ده هيشيل أي مسافة بياخدها الديف ده */
-}
 
 
 .members,
@@ -212,74 +384,11 @@ transform: scale(1.07);
     /* يخليها فوق الخلفية */
 }
 
-.lonlink a {
-    position: relative;
-    z-index: 10;
-    /* يضمن إن اللينك نفسه هو اللي في الوش */
-    cursor: pointer;
-    /* عشان شكل الإيد يظهر */
-}
-
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    font-family: 'Exo 2';
-}
-
-.logo span {
-    color: #ff4d4d;
-}
-
-a {
-    text-decoration: none;
-    color: #000;
-}
-
-.nav-links {
-    list-style: none;
-}
-
-.nav-links li {
-    margin-left: 20px;
-}
-
-.nav-links a {
-    text-decoration: none;
-}
-
-/* الـ Hero */
-.hero {
-    height: 100%;
-    padding-top: 30px;
-    background-color: #111111;
-    color: #fff;
-    text-align: center;
-}
-
 .img-logo {
     width: 100px;
     float: right;
     margin-bottom: 6px;
     padding-bottom: 10px;
-}
-
-.hero-content {
-    display: block;
-    /* ده النوع العادي اللي إنت عارفه */
-}
-
-.hero h1 {
-    font-size: 80px;
-    font-family: 'Exo 2';
-    margin: 10px 0;
-}
-
-.hero p {
-    font-size: 24px;
-    font-family: 'Dancing Script';
-    color: #ff4d4d;
-    margin-bottom: 22px;
 }
 
 .main-btn {
@@ -317,24 +426,6 @@ a {
     margin-top: 515px;
 }
 
-.hero img {
-    margin-left: 544px;
-}
-
-.ai-haga {
-    margin-top: 9vh;
-}
-
-.hero img {
-    margin: auto;
-    margin-top: 10px;
-}
-
-
-
-.Hamza_Gamal {
-    text-shadow: 1px 1px 30px rgba(155, 26, 26, 0.9);
-}
 
 
 
@@ -363,18 +454,7 @@ textarea {
 
 }
 
-.logoo {
-    width: 400px;
-    height: 100px;
-    margin: auto;
-    margin-top: 94px;
-}
 
-.logooo {
-    text-align: center;
-    margin: auto;
-
-}
 
 .images-div {
     width: 200px;
@@ -458,60 +538,11 @@ textarea {
 
 
 
-.about {
-    margin-left: 32px;
-    width: 90%;
-    border-radius: 33px;
-    padding: 0 0 50px 50px;
-    background-color: #0c0c0c;
-}
-
-.about-dont-img {
-    display: inline-block;
-}
 
 .all-img-not-img {
     margin-bottom: 23px;
 }
 
-.p1-about {
-    color: rgb(255, 0, 0);
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
-}
-
-.p2-about {
-    color: #9e9e9e;
-}
-
-.puzzile-about {
-    width: 110px;
-    display: inline-block;
-    border: #333 solid 0.5px;
-    margin: 0 33px 0 0;
-    border-radius: 15px;
-    text-align: center;
-    height: 80px;
-    background-color: #202020;
-    transition: 0.4s;
-}
-.puzzile-about:hover {
-    transform: translateY(-5px);
-    background-color: #444343;
-}
-
-.puzzile-about:active
-{
-    transform: scale(0.90);
-}
-.img-about {
-    width: 300px;
-    border-radius: 90px;
-    margin-bottom: -100px;
-    margin-right: 100px;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
 
 
 
@@ -567,7 +598,7 @@ h1 {
 
 .hero {
     height: 100vh;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), ; */
+    margin-bottom: 100px;
     background-color: #000000;
     background-size: cover;
     background-position: center;
@@ -601,81 +632,7 @@ h2 {
 
 .for {}
 
-.lonlink {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-
-
-.skills-section {
-    padding: 60px 20px;
-    text-align: center;
-    margin-top: 50px;
-}
-
-.skills-title {
-    font-size: 40px;
-    margin-bottom: 30px;
-    color: #fff;
-
-}
-
-.skills-container {
-
-
-    padding-left: 122px;
-    margin: auto;
-    text-align: center;
-}
-
-.skill-card {
-    background: #360000;
-    padding: 30px;
-    border: 2px solid #8d8b8b;
-    border-radius: 15px;
-    width: 250px;
-    margin: 25px;
-    display: inline-block;
-    text-align: center;
-}
-
-.img-projict {
-    width: 170px;
-    filter: brightness(90%);
-    height: 250px;
-}
-
-.img-projict:hover {
-    filter: brightness(110%) contrast(120%) saturate(130%);
-    transform: scale(1.05);
-}
-
-.skill-card h3 {
-    color: #fff;
-    margin-bottom: 10px;
-}
-
-.skill-card p {
-    color: #ccc;
-}
-
-
-.skill-card:hover {
-    background-color: tomato;
-}
-
-.bar {
-    background: #222;
-    border-radius: 20px;
-    height: 10px;
-}
-
-.fill {
-    background: #ff4d4d;
-    height: 10px;
-    border-radius: 20px;
-}
 
 .numper {
     float: right;
@@ -701,11 +658,6 @@ a:hover {
 .two {
     background-color: #555454;
 
-}
-
-.three {
-    background-color: #000000;
-    margin-top: 20px;
 }
 
 .for {
@@ -935,7 +887,10 @@ textarea {
 .clearclear {
     clear: both;
 }
-
+.footer
+{
+    text-align: center;
+}
 footer {
     background: #000;
     color: #fff;
@@ -1195,14 +1150,9 @@ footer a:hover {
         margin: auto;
         display: block;
     }
+    body
+    {
+      overflow-x: hidden;
+    }
 }
 
-/* @keyframes pulse {
-  0% { transform: scale(1.1); }
-  50% { transform: scale(1.2); }
-  100% { transform: scale(1.1); }
-}
-
-.logo:hover .صوره-اللوجو {
-    animation: pulse 0.6s infinite; 
-} */
