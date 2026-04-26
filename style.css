@@ -4,7 +4,7 @@
 body {
     color: rgb(255, 255, 255);
     /* background-image: url(images/ورده.webp), url(images/web_page.jpg); */
-    background-color: #111111;
+    background-color: #000000;
     background-position: center 130%, center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -283,6 +283,9 @@ display: inline-block;
 margin: auto;
 text-align: center;
 margin-left: 10px;
+background-color: #111;
+width: 95%;
+border-radius: 30px;
 margin-bottom: 100px;
 }
 .Project3 {
@@ -338,7 +341,7 @@ margin-bottom: 100px;
 .skills
 {
     border-radius: 23px;padding-bottom: 33px; margin-top: 150px; width: 500px;margin: auto; padding: 0 1.5% 1.5% 1.5%; margin-top: 33px ;  background-color: #000000; margin-top: 20px;
-        background-color: #000000;
+        background-color: #111;
     margin-top: 20px;
 
 }
@@ -763,7 +766,6 @@ a:hover {
 
 
 
-/* ////////////////////////////////////////////////////////////////////////// */
 form {
     background: #000000;
     position: absolute;
@@ -892,7 +894,7 @@ textarea {
     text-align: center;
 }
 footer {
-    background: #000;
+    background: #111;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -943,6 +945,7 @@ footer a:hover {
     display: inline-block;
 }
 
+/* //////////////////////////////////////////////////////////////// media //////////////////////////////////////////////////////////// */
 @media (max-width: 1347px) {
 
     .Contact-and-contactme {
@@ -975,17 +978,6 @@ footer a:hover {
     }
 
 }
-/* @media (max-width: 697px) {
-
-    input {
-        width: 100%;
-    }
-   form,textarea
-   {
-    
-   }
-} */
-
 @media (max-width: 605px) {
 
     input {
