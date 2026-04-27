@@ -734,9 +734,9 @@ footer a:hover {
     form
     {
         margin-bottom: 32px;
-        width: 260px;
+        width: 95%;
         position: relative;
-        right: 25px;
+        right: 30px;
     }
     input
     {
