@@ -344,12 +344,11 @@ transform: scale(1.07);
 
 .about {
     background-size: cover;
-    width: 90%;
+    width: 100%;
     margin: auto;
-    border-radius: 30px;
     margin-bottom: 50px;
     padding: 0 0 50px 50px;
-    background-color: #0e0e0e;
+    background-color: #0c0c0c;
     text-align: center;
 }
 .about-dont-img {
@@ -409,9 +408,7 @@ transform: scale(1.07);
         margin: auto;
         text-align: center;
         margin-left: 10px;
-        background-color: #0c0c0c;
-        width: 95%;
-        border-radius: 30px;
+        width: 100%;
         margin-bottom: 100px;
 }
 .Project3 {
@@ -481,12 +478,23 @@ transform: scale(1.07);
     transition: 0.4s;
     text-align: center;
     margin: auto;
-    border-radius: 23px;padding-bottom: 33px; margin-top: 150px; width: 500px;margin: auto; padding: 0 1.5% 1.5% 1.5%; margin-top: 33px ;  background-color: #000000; margin-top: 20px;
-    background-color: #0c0c0c;
+    border-radius: 23px;
+    padding-bottom: 33px;
+    margin-top: 100px;
+    width: 500px;
+    margin: auto;
+    padding: 0 1.5% 1.5% 1.5%;
+    margin-top: 33px;
+    margin-top: 20px;
+    position: relative;
+    top: 100px;
+    background-color: #070707;
     margin-top: 20px;
 }
-.skills:hover {
-
+.skills-skills
+{
+    width: 100%;
+    background-color: #0e0e0e;
 }
 .bar {
     background: #222;
@@ -514,34 +522,34 @@ transform: scale(1.07);
 
 
 form {
-    background: #000000;
+    background: #070707;
     overflow: hidden;
     display: inline-block;
     max-width: 700px;
-    width: 50%;
+    width: 57%;
     border-radius: 10px;
     color: #ffffff;
     border: rgb(51, 51, 51) 0.1px solid;
     margin-bottom: -33px;
-    padding: 40px;
+    padding: 30px 17px 30px 17px;
     margin: 80px 30px 0 0;
 }
 
 input {
-    background-color: #000;
+    background-color: #070707;
     border: 1px solid #333;
     border-radius: 5px;
     display: inline-block;
     margin: auto;
     margin-bottom: 20px;
     padding: 10px;
-    width: 38.5%;
+    width: 40.5%;
     color: #ffffff;
 }
 
 .footer {
     text-align: center;
-    background-color: rgba(39, 39, 42, 0.3);
+    background-color: #0e0e0e;
     margin-top: 70px;
     display: flex;        
     justify-content: center; 
@@ -550,12 +558,21 @@ input {
     flex-wrap: wrap;      
     padding: 40px 40px 0 40px;           
 }
+footer {
+    background: #000000;
+    color: gray;
+    display: flex;
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+    width: 100vw;
+    display: block;
+}
 
 
 
 button {
     padding: 20px;
-    margin: 33px 0 -23px 0;
+    margin: 33px 0 0 0;
     background-size: cover;
     background-position: center center;
     border: #333 solid 1px;
@@ -563,9 +580,9 @@ button {
     display: inline-block;
     border-radius: 5px;
     display: inline-block;
-    background: tomato;
+    background: rgb(230, 83, 54);
     text-align: center;
-    width: 90%;
+    width: 95%;
     transition: 0.3s;
 }
 
@@ -593,14 +610,14 @@ button:hover {
 }
 
 .e-l-p {
-    background-color: #000000;
+    background-color: #070707;
     margin: 15px 15px 15px 0;
     display: flex;
     align-items: center;
     gap: 15px;
     width: 280px;
     position: relative;
-    bottom: 94px;   
+    bottom: 93px;   
     padding: 20px;
     padding-top: 25px;
     border-radius: 10px;
@@ -628,7 +645,7 @@ button:hover {
 
 textarea {
     color: #ffffff;
-    width: 565px;
+    width: 90%;
     overflow: auto;
     resize: vertical;
     min-height: 100px;
@@ -636,7 +653,7 @@ textarea {
     height: 130px;
     padding: 13px;
     border-radius: 5px;
-    background-color: #000;
+    background-color: #070707;
     border: 1px solid #333;
     border-radius: 5px;
     padding: 10px;
@@ -645,16 +662,6 @@ textarea {
 
 .Contact-and-contactme {
     display: inline-block;
-}
-
-footer {
-    text-align: center;
-    background: #000000;
-    color: gray;
-    padding: 0 20px 20px 20px;
-    text-align: center;
-    width: 100vw;
-    display: block;
 }
 
 
