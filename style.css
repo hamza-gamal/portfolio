@@ -249,6 +249,12 @@ transform: scale(1.07);
     left: 0;
 }
 
+@keyframes نبضة {
+    0%   { box-shadow: 0 0 1px #ff6e6e; }
+    50%  { box-shadow: 0 0 15px #ff6e6e; }
+    100% { box-shadow: 0 0 1px #ff6e6e; }
+}
+
 
 .image {
     width: 200px;
@@ -256,7 +262,7 @@ transform: scale(1.07);
     height: 200px;
     border-radius: 50%;
     border: #141414 solid;
-    box-shadow: 1px 1px 10px #ff6e6e;
+    animation: نبضة 2s infinite;
     margin-top: 96px;
     transition: transform 1s 1s;    
     margin: auto;
