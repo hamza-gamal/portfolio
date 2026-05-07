@@ -1,7 +1,8 @@
-window.alert ('وحد ﷲ +  صلي على النبي')
-const hamburger = document.querySelector(".hamburger");
-const navLinks = document.querySelector(".nav-links");
-
-hamburger.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-});
+// window.alert ('وحد ﷲ +  صلِّ على النبي')
+// let درجتك = 90
+// let اسمك = prompt("صلي على النبي")
+// if ("عليه الصلاة والسلام") {
+//     window.alert("ناجح 🎉")
+// } else {
+//     window.alert("راسب 😢")
+// }
