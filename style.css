@@ -69,19 +69,18 @@ transform: scale(1.07);
     transition: 0.4s;
 }
 
-.nav-links a {
-    color: rgb(170, 170, 170);
-}
 
 .nav-links li {
     display: inline-block;
-    margin-left: 20px;  
     padding-right: 5vh;
+    margin-left: 20px;
     color: rgb(170, 170, 170);
 }
 
 .nav-links a {
     color: rgb(170, 170, 170);
+    color: rgb(170, 170, 170);
+    text-decoration: none;
     text-decoration: none;
     font-size: 20px;
 }
@@ -136,7 +135,6 @@ transform: scale(1.07);
     transition: 0.4s;
 }
 
-
 .صوره-اللوجو {
     margin-top: -20px;
 }
@@ -169,13 +167,7 @@ transform: scale(1.07);
     list-style: none;
 }
 
-.nav-links li {
-    margin-left: 20px;
-}
 
-.nav-links a {
-    text-decoration: none;
-}
 
 
 /* //////////////////////////////////////////////////////           hero 🔴         //////////////////////////////////////////////////////*/
