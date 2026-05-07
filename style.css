@@ -256,7 +256,7 @@ transform: scale(1.07);
     height: 200px;
     border-radius: 50%;
     border: #141414 solid;
-    box-shadow: 1px 1px 10px rgba(155, 26, 26);
+    box-shadow: 1px 1px 10px #ff6e6e;
     margin-top: 96px;
     transition: transform 1s 1s;    
     margin: auto;
