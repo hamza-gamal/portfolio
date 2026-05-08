@@ -321,6 +321,7 @@ h1 {
     background: #e23b3b;
     color: #fff;
     padding: 12px 25px;
+    transition: transform 0.3s ,  background-color 0.3S;
     text-decoration: none;
     border-radius: 5px;
     margin: 10px;   
@@ -339,7 +340,7 @@ h1 {
 }
 
 .main-btn:hover , .sec-btn:hover{
-    background-color: #ec3636;
+    background-color: #d13030;
 }
 
 
