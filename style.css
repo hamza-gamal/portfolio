@@ -12,7 +12,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
 }
-
+ 
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -467,7 +467,12 @@ h1 {
     box-shadow: 0 0 25px 20px rgba(255, 77, 77, 0.6);
     border-radius: 15px;
 }
-.Project:hover img
+.Project:hover .Restaurant:hover
+{
+    filter: contrast(102%) brightness(95%) saturate(130%);
+}
+
+.Project:hover .Quran:hover , .Portfolio:hover
 {
     filter: contrast(110%) brightness(70%) saturate(120%);
 }
