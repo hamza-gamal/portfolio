@@ -17,9 +17,6 @@ html {
     scroll-behavior: smooth;
     overflow-x: hidden;
     height: 100%;
-
-
-
 }
 
 * {
@@ -49,128 +46,143 @@ h1 {
 
 /* //////////////////////////////////////////////////////           navbar 🔴         //////////////////////////////////////////////////////*/
 
+.sun
+{
+    font-size: large;
+    color: #ffffff;
+    transition: 0.5s;
+    margin-right: -40px;
+    width: 35px;
+    padding-top: 5px;
+    margin-top: 8px;
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+}
+.moon
+{
+    display: none; 
+    transition: 0.3s;
+    color: #ffffff;
+}
+.sun:hover , .moon:hover
+{
+ background-color: rgba(255, 255, 255, 0.2);
+ color: #f83939;
+}
 
 
- .Welcomeportfolio
-{
-transition: 0.4s;
-}
-.Welcomeportfolio:hover
-{
-color: tomato;
-transform: scale(1.07);
-}
 .hamburger {
     display: none;
 }
 
-.nav-links a:hover {
-    color: #e54848;
-    transition: 0.4s;
-}
-
-
-.nav-links li {
-    display: inline-block;
-    padding-right: 5vh;
-    margin-left: 20px;
-    color: rgb(170, 170, 170);
-}
-
-.nav-links a {
-    color: rgb(170, 170, 170);
-    color: rgb(170, 170, 170);
-    text-decoration: none;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.img-logo {
-    width: 100px;
-    float: right;
-    margin-bottom: 6px;
-    padding-bottom: 10px;
-}
 .navbar {
     background: rgba(4, 4, 4, 0.6);  
     backdrop-filter: blur(15px); 
-    border-bottom: 1px #464646 solid;
-    margin-bottom: 10px;
-    height: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height: 70px;
     width: 100%;
     position: fixed;
     top: 0;
-    padding-bottom: 10px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    left: 0;
+    box-sizing: border-box; 
+    padding: 0 5%;
     z-index: 9999999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid transparent; 
+    animation: show-border linear both; 
+    animation-timeline: scroll();
+    animation-range: 0px 50px; 
 }
 
-
-.logo a {
-    color: rgb(170, 170, 170);
+@keyframes show-border {
+    from {
+        border-bottom-color: transparent;
+    }
+    to {
+        border-bottom-color: #4d4d4d; 
+    }
 }
+
+/* -------------------- logo (name and image) -------------------- */
 
 .logo {
+    display: flex;
+    align-items: center;
+    margin-left: -50px;
     font-size: 24px;
     font-family: "Exo 2", sans-serif;
-    margin-right: 10px;
-    float: right;
-}
-
-.logo:hover a {
-    color: #e54848;
-    display: inline-block;
-}
-
-.logo:hover .صوره-اللوجو {
-    transform: scale(1.1);
-    filter: brightness(0) saturate(100%) invert(35%) sepia(86%) saturate(4619%) hue-rotate(345deg) brightness(113%) contrast(80%);
-}
-
-.logo a, .صوره-اللوجو {
-    transition: 0.4s;
-}
-
-.صوره-اللوجو {
-    margin-top: -20px;
-}
-
-.line {
-    display: inline-block;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    width: 100%;
-    height: 0.5px;
-    background-color: #000000;
-    z-index: 999999999999999999;
-}
-
-
-
-
-.logo {
-    font-size: 24px;
     font-weight: bold;
-    font-family: 'Exo 2';
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
 }
 
 .logo span {
     color: #ff4d4d;
 }
 
-.nav-links {
-    list-style: none;
+.img-logo {
+    width: 97px; 
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    margin-right: -10px;
 }
 
+.صوره-اللوجو {
+    width: 100%;
+    transition: 0.2s;
+}
 
+.logo:hover a {
+    color: #e54848;
+}
 
+.logo:hover .صوره-اللوجو {
+    transform: scale(1.05);
+    filter: brightness(0) saturate(100%) invert(35%) sepia(86%) saturate(4619%) hue-rotate(345deg) brightness(113%) contrast(80%);
+}
+
+/* -------------------- links -------------------- */
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.nav-links a:hover {
+    color: #e54848;
+}
 
 /* //////////////////////////////////////////////////////           hero 🔴         //////////////////////////////////////////////////////*/
+.Welcomeportfolio {
+    transition: 0.4s;
+}
+
+.Welcomeportfolio:hover {
+    color: tomato;
+    transform: scale(1.05);
+}
 
 .hero {
     height: 100%;
@@ -220,7 +232,7 @@ transform: scale(1.07);
 
 
 .Hamza_Gamal {
-    text-shadow: 1px 1px 30px rgba(155, 26, 26, 0.9);
+    text-shadow: 1px 1px 30px rgba(255, 48, 48, 0.9);
 }
 
 .image-caption:hover .image{
@@ -240,21 +252,20 @@ transform: scale(1.07);
     transition: left 1s 1s;
     left: 0;
 }
-
+    
 @keyframes نبضة {
     0%   { box-shadow: 0 0 1px #ff6e6e; }
     50%  { box-shadow: 0 0 15px #ff6e6e; }
     100% { box-shadow: 0 0 1px #ff6e6e; }
 }
-
-
+    
 .image {
+    animation: نبضة 2s infinite;
     width: 200px;
     filter: contrast(115%) brightness(110%) saturate(150%) ;
     height: 200px;
     border-radius: 50%;
     border: #141414 solid;
-    animation: نبضة 2s infinite;
     margin-top: 96px;
     transition: transform 1s 1s;    
     margin: auto;
@@ -703,8 +714,12 @@ footer a:hover {
         left: 0;
         width: 100%;
         background: #111;
-    }
 
+    }
+    .logo
+    {
+            margin-left: -35px;
+    }
     .hamburger {
         display: block;
     }
