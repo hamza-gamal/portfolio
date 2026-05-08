@@ -67,8 +67,9 @@ h1 {
 }
 .sun:hover , .moon:hover
 {
- background-color: rgba(255, 255, 255, 0.2);
- color: #f83939;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #f83939;
+    cursor: pointer;
 }
 
 
@@ -344,13 +345,12 @@ h1 {
 
 /* //////////////////////////////////////////////////////           about 🔴         //////////////////////////////////////////////////////*/
 
-
 .about {
     background-size: cover;
     width: 100%;
     margin: auto;
     margin-bottom: 50px;
-    padding: 0 0 50px 50px;
+    padding: 20px 0 50px 50px;
     background-color: #0c0c0c;
     text-align: center;
 }
@@ -389,7 +389,7 @@ h1 {
 {
     transform: scale(0.90);
 }
-.img-about {
+.about img {
     width: 300px;
     border-radius: 90px;
     margin-bottom: -100px;
@@ -400,7 +400,7 @@ h1 {
 
 
 .all-not-img {
-    margin-bottom: 23px;
+    margin-bottom: 15px;
 }
 
 
